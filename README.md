@@ -6,7 +6,7 @@ Welcome to my repository for the Full Stack Open course! This repository contain
 
 Full Stack Open is an extensive course created by the University of Helsinki's Department of Computer Science. It covers modern web development with JavaScript, focusing on the following topics:
 
-- React
+- ReactJS
 - Redux
 - Node.js
 - Express
@@ -23,11 +23,11 @@ The repository is organized by parts and exercises. Each part corresponds to a s
 
 ## Progress
 
-Here's a snapshot of my progress through the course:
+Here's is my progress through the course so far:
 
 - [x] Part 0: Fundamentals of Web Apps
-- [x] Part 1: Introduction to React
-- [x] Part 2: Communicating with Server
+- [ ] Part 1: Introduction to React
+- [ ] Part 2: Communicating with Server
 - [ ] Part 3: Programming a Server with NodeJS and Express
 - [ ] Part 4: Testing Express Servers, User Administration
 - [ ] Part 5: Testing React Apps
