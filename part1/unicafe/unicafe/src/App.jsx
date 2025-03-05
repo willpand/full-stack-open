@@ -37,6 +37,8 @@ const App = () => {
   const handleBad = () => {
     setBad(bad + 1)
   }
+
+  const all = good + bad + neutral
   
 return(
   <div>
@@ -48,6 +50,9 @@ return(
     <Statistic text='good' number={good}/>
     <Statistic text='neutral' number={neutral}/>
     <Statistic text='bad' number={bad}/>
+    <Statistic text='all' number={all}/>
+    <Statistic text='average' number={(good - bad) /all}/>
+    <Statistic text='positive' number={(good * 100)/all + '%'}/>
   </div>
 )
 }
